@@ -1,0 +1,5 @@
+GhostLock
+Creator and owner: MD ABID HASAN
+Publisher: MDexpLab
+Copyright (c) 2026 MD ABID HASAN / MDexpLab. Open-source software under the MIT License (see LICENSE).
+Modified builds should clearly identify what changed and must not be presented as official MDexpLab releases without the owner's approval.
