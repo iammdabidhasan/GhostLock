@@ -1,0 +1,30 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: GhostLock version
+      description: Shown in the ghost menu under About & Safety.
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 23H2
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened, and what did you expect?
+      description: Steps to reproduce help a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Error log (optional)
+      description: Open the data folder from About and paste the end of ghostlock.log. Remove anything private.

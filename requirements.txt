@@ -1,0 +1,4 @@
+# Optional runtime dependency: webcam snapshot for the intruder photo.
+# Build tools (ExeForge, build.ps1) install it so the .exe includes camera support.
+# GhostLock itself runs fine without it; the intruder photo is then simply unavailable.
+opencv-python-headless>=4.8

@@ -1,0 +1,22 @@
+# build output
+build/
+dist/
+*.spec.bak
+*.toc
+*.pkg
+*.pyz
+warn-*.txt
+xref-*.html
+localpycs/
+# python
+__pycache__/
+*.pyc
+.venv/
+# editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+# large media (attach to Releases instead)
+*.mp4
+
